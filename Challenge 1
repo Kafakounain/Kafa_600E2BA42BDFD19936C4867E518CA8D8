@@ -7,4 +7,4 @@ else:
 number=2
 res=fact_rec(number)
 
-print("The Factorial of {}".format(number,rec))
+print("The Factorial of {} is{}.".format(number,rec))
