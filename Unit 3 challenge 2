@@ -1,0 +1,29 @@
+def sort_students(students):
+  """
+  Sorts a list of student objects based on their CGPA in descending order.
+
+  Args:
+    students: A list of student objects.
+
+  Returns:
+    A sorted list of student objects.
+  """
+
+  students.sort(key=lambda student: student.cgpa, reverse=True)
+  return students
+
+def sort_students(students):
+  """
+  Sorts a list of student objects based on their CGPA in descending order.
+
+  Args:
+    students: A list of student objects.
+students = [
+    {'name': 'John Doe', 'roll_number': '12345', 'cgpa': 3.9},
+    {'name': 'Jane Doe', 'roll_number': '67890', 'cgpa': 3.8},
+    {'name': 'Peter Smith', 'roll_number': '12346', 'cgpa': 3.7},
+]
+
+sorted_students = sort_students(students)
+
+print(sorted_students)
