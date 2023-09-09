@@ -1,0 +1,23 @@
+def linear_search_product(products, target_product):
+  """
+  Performs a linear search to find the target product in the list of products.
+
+  Args:
+    products: A list of products.
+    target_product: The name of the product to search for.
+
+  Returns:
+    A list of indices of all occurrences of the product if found, or an empty list if the product is not found.
+  """
+
+indices = []
+  for i, product in enumerate(products):
+    if product == target_product:
+      indices.append(i)
+  return indices
+products = ["apple", "banana", "orange", "apple", "pear"]
+target_product = "apple"
+
+indices = linear_search_product(products, target_product)
+
+print(indices)
