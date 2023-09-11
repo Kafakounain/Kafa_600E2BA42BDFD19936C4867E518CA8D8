@@ -7,11 +7,9 @@ def linear_search_product(products, target_product):
 
 def main():
     # Example usage
-    products = ["apple", "banana", "apple", "orange", "apple"]
-    target = "apple"
-
+    products = ["kafa", "kounain", "kafa", "Haiyaar", "kafa"]
+    target = "kafa"
     result = linear_search_product(products, target)
-
     if result:
         print(f"The product '{target}' is found at indices: {result}")
     else:
